@@ -1,0 +1,12 @@
+{
+	"content": [
+		{
+			"Name": "Blabla",
+			"FileSource": "This/Is/A/Path.Goob"
+		},
+		{
+			"Name": "Other",
+			"FileSource": "This/Is/Another/Path.Goob"
+		}
+	]
+}

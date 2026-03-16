@@ -6,6 +6,9 @@
 *.lo
 *.o
 *.obj
+.vs/*
+PokeFinder/x64/*
+*.user
 
 # Precompiled Headers
 *.gch
