@@ -1,31 +1,27 @@
 #include "json.hpp"
 #include <fstream>
 #include <iostream>
+#include <array>
+#include "spUtilities.h"
 
 using namespace nlohmann;
 
 int main()
 {
-    json Kanto;
-    std::ifstream readStream("Region/Kanto.Goob");
-    Kanto = json::parse(readStream);
-    readStream.close();
-    for (auto element : Kanto["content"])
-    {
-        element["Name"].get<std::string>();
-        element["FileSource"].get<std::string>();
-    }
+	std::array<Sparky::pContainer, 151> KantoContainer;
+	json Kanto;
+	std::ifstream readStream("Region/Kanto.Goob");
+	Kanto = json::parse(readStream);
+	readStream.close();
+	int i = 1;
+	for (auto element : Kanto["content"])
+	{
+		KantoContainer[i].pName = element["Name"].get<std::string>();
+		KantoContainer[i].pSource = element["FileSource"].get<std::string>();
+		i++;
+	}
 
-    std::cout << "Hello World!\n";
+	std::cout << KantoContainer[1].pName;
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to owpen this project again, go to File > Open > Project and select the .sln file

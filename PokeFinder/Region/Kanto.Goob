@@ -1,12 +1,64 @@
 {
 	"content": [
 		{
-			"Name": "Blabla",
-			"FileSource": "This/Is/A/Path.Goob"
+			"Name": "Bulbasaur",
+			"FileSource": "Pokemon/Bulbasaur.Goob"
 		},
 		{
-			"Name": "Other",
-			"FileSource": "This/Is/Another/Path.Goob"
+			"Name": "Ivysaur",
+			"FileSource": "Pokemon/Ivysaur.Goob"
+		},
+		{
+			"Name": "Venasaur",
+			"FileSource": "Pokemon/Venasaur.Goob"
+		},
+		{
+			"Name": "Charmander",
+			"FileSource": "Pokemon/Charmander.Goob"
+		},
+		{
+			"Name": "Charmeleon",
+			"FileSource": "Pokemon/Charmeleon.Goob"
+		},
+		{
+			"Name": "Charizard",
+			"FileSource": "Pokemon/Charizard.Goob"
+		},
+		{
+			"Name": "Squirtle",
+			"FileSource": "Pokemon/Squirtle.Goob"
+		},
+		{
+			"Name": "Wartortle",
+			"FileSource": "Pokemon/Wartortle.Goob"
+		},
+		{
+			"Name": "Blastoise",
+			"FileSource": "Pokemon/Blastoise.Goob"
+		},
+		{
+			"Name": "Caterpie",
+			"FileSource": "Pokemon/Caterpie.Goob"
+		},
+		{
+			"Name": "Metapod",
+			"FileSource": "Pokemon/Metapod.Goob"
+		},
+		{
+			"Name": "Butterfree",
+			"FileSource": "Pokemon/Butterfree.Goob"
+		},
+		{
+			"Name": "Weedle",
+			"FileSource": "Pokemon/Weedle.Goob"
+		},
+		{
+			"Name": "Kakuna",
+			"FileSource": "Pokemon/Kakuna.Goob"
+		},
+		{
+			"Name": "Beedrill",
+			"FileSource": "Pokemon/Beedrill.Goob"
 		}
 	]
 }
