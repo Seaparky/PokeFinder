@@ -1,0 +1,20 @@
+{
+  "Name": "Bulbasaur",
+  "DexNumber": 1,
+  "Primary": "Grass",
+  "Secondary": "Poison",
+  "Description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back.\nBy soaking up the sun's rays, the seed grows progressively larger.",
+  "Attack": 2,
+  "SpAttack": 2,
+  "Defense": 2,
+  "SpDefense": 2,
+  "HP": 2,
+  "Speed": 2,
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    "Growl": "Growl"
+  }
+
+}

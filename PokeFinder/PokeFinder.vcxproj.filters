@@ -29,5 +29,11 @@
     <ClInclude Include="spUtilities.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="pkmTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PKM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
