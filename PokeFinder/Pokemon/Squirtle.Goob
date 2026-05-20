@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "Squirtle",
+  "DexNumber": 0,
+  "Primary": 3,
+  "Secondary": 0,
+  "Description": "",
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    
+  }
+
+}

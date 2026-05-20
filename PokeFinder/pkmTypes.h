@@ -28,20 +28,28 @@ namespace Sparky
 	};
 
 
+
 	class PKType
 	{
 	public:
 
-		void SetPrimary(Type aPType) { Primary = aPType; };
-		void SetPrimary(int aPType) { Primary = static_cast<Type>(aPType); };
-		void SetSecondary(Type aSType) { Secondary = aSType; };
-		void SetSecondary(int aSType) { Secondary = static_cast<Type>(aSType); };
+		void SetType(Type aPType) { type = aPType; };
+		void SetType(int aPType) { type = static_cast<Type>(aPType); };
 
+		bool operator==(const PKType& aOther) const
+		{
+			return operator==(aOther.type);
+		}
+
+		bool operator==(const Type& aOther) const
+		{
+			return type == aOther;
+		}
 
 	private:
 
-		Type Primary;
-		Type Secondary;
+		Type type;
+
 
 	};
 

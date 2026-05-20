@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "Metapod",
+  "DexNumber": 11,
+  "Primary": 12,
+  "Secondary": 0,
+  "Description": "",
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    
+  }
+
+}

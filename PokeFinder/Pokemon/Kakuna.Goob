@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "Kakuna",
+  "DexNumber": 14,
+  "Primary": 12,
+  "Secondary": 8,
+  "Description": "",
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    
+  }
+
+}

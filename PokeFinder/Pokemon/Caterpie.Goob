@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "Caterpie",
+  "DexNumber": 10,
+  "Primary": 12,
+  "Secondary": 0,
+  "Description": "",
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    
+  }
+
+}

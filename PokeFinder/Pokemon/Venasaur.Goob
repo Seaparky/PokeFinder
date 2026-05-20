@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "Venasaur",
+  "DexNumber": 2,
+  "Primary": 5,
+  "Secondary": 8,
+  "Description": "",
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    
+  }
+
+}

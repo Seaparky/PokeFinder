@@ -1,8 +1,8 @@
 {
-  "Name": "Charizard",
-  "DexNumber": 3,
-  "Primary": 2,
-  "Secondary": 10,
+  "Name": "",
+  "DexNumber": 0,
+  "Primary": 0,
+  "Secondary": 0,
   "Description": "",
   "PossibleAbilityOne": "",
   "PossibleAbilityTwo": "",

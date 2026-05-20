@@ -4,12 +4,13 @@
 #include <array>
 #include <algorithm>
 #include "spUtilities.h"
+#include "PKM.h"
 
 using namespace nlohmann;
 
 int main()
 {
-	std::array<Sparky::pContainer, 151> KantoContainer;
+	std::array<Sparky::Pokemon, 151> KantoContainer;
 	json Kanto;
 	std::ifstream readStream("Region/Kanto.Goob");
 	Kanto = json::parse(readStream);
@@ -17,24 +18,24 @@ int main()
 	int i = 1;
 	for (auto element : Kanto["content"])
 	{
-		KantoContainer[i].pName = element["Name"].get<std::string>();
+		KantoContainer[i].myName = element["Name"].get<std::string>();
 		KantoContainer[i].pSourceName = element["FileSource"].get<std::string>();
 		json source;
 		std::ifstream readStream(KantoContainer[i].pSourceName);
 		source = json::parse(readStream);
 		readStream.close();
-		KantoContainer[i].pSourceData = &source;
+		KantoContainer[i].type[0].SetType(source["Primary"].get<int>());
+		KantoContainer[i].type[1].SetType(source["Secondary"].get<int>());
 		
 		i++;
+
+		//if (i == 4) { break; }
 	}
 
-	std::string Search = "Caterpie";
+	auto SparkResult = std::find(KantoContainer.begin(), KantoContainer.end(), Sparky::Type::Bug);
+	
+	std::cout << "Kanto has " << SparkResult->myName << std::endl;
 
-	const auto SparkResult = std::find(KantoContainer.begin(), KantoContainer.end(), Search);
-
-	std::cout << "Kanto has " << SparkResult->pName << std::endl;
-
-	std::cout << KantoContainer[1].pName;
 
 }
 

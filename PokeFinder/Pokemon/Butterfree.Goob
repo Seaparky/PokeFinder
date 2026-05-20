@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "Butterfree",
+  "DexNumber": 12,
+  "Primary": 12,
+  "Secondary": 10,
+  "Description": "",
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    
+  }
+
+}

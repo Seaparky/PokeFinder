@@ -1,1 +1,14 @@
-{}
+{
+  "Name": "Charmander",
+  "DexNumber": 3,
+  "Primary": 2,
+  "Secondary": 0,
+  "Description": "",
+  "PossibleAbilityOne": "",
+  "PossibleAbilityTwo": "",
+  "HiddenAbility": "",
+  "PossibleMoves": {
+    
+  }
+
+}
