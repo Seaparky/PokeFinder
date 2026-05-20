@@ -28,14 +28,28 @@ int main()
 		KantoContainer[i].type[1].SetType(source["Secondary"].get<int>());
 		
 		i++;
-
-		//if (i == 4) { break; }
 	}
 
 	auto SparkResult = std::find(KantoContainer.begin(), KantoContainer.end(), Sparky::Type::Bug);
 	
-	std::cout << "Kanto has " << SparkResult->myName << std::endl;
+	std::vector<Sparky::Pokemon> PkmOfType;
 
+	for (int i = 0; i < KantoContainer.size();)
+	{
+		if (KantoContainer[i].type[0] == Sparky::Type::Fire)
+		{
+			PkmOfType.push_back(KantoContainer[i]);
+		}
+
+		i++;
+	}
+
+	for (int i = 0; i < PkmOfType.size();)
+	{
+		std::cout << PkmOfType[i].myName << " is a " << PkmOfType[i].type[0].GetTypeName() << " type" << std::endl;
+
+		i++;
+	}
 
 }
 
